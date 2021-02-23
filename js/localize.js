@@ -5,8 +5,9 @@ $(document).ready(function () {
       inputLangUK = $('[data-lang=uk]'),
       checkbox    = $('.toggle :checked'),
       label       = $('.toggle-item'),
-      linkRU      = window.location.href.includes('/marathon/index.html'),
-      linkUK      = window.location.href.includes('/marathon/lang/uk/index.html')
+      toggler       = $('.toggle-wrapper')
+      // linkRU      = window.location.href.includes('/marathon/index.html'),
+      // linkUK      = window.location.href.includes('/marathon/lang/uk/index.html')
 
   var browserLang = navigator.language; //язик браузера
   var fileLang = $('html').attr('lang') //язык документа
@@ -32,7 +33,7 @@ $(document).ready(function () {
   var currentLang = $('html').attr('lang');
   updateURL(fileLang);
 
-  label.click(function (event) {
+  toggler.click(function (event) {
     event.preventDefault();
 
     if (checkbox.is(':checked') === true) {
