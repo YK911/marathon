@@ -643,7 +643,7 @@ a {
 }
 
 .header__title_size {
-  font-size: 35px;
+  font-size: 28px;
   font-family: "Acrom", sans-serif;
   color: #ffffff;
   font-weight: 700;
@@ -655,7 +655,7 @@ a {
 
 .header__title_size::before {
   content: "[";
-  font-size: 35px;
+  font-size: 28px;
   font-family: "Acrom", sans-serif;
   color: #ff6b08;
   font-weight: 700;
@@ -665,7 +665,7 @@ a {
 
 .header__title_size::after {
   content: "]";
-  font-size: 35px;
+  font-size: 28px;
   font-family: "Acrom", sans-serif;
   color: #ff6b08;
   font-weight: 700;
@@ -732,7 +732,7 @@ a {
 
 .site-logo {
   display: block;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   width: 100px;
   -webkit-animation: anime 2s linear;
   animation: anime 2s linear;
